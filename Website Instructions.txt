@@ -1,0 +1,17 @@
+app > viewmodels > home.ts (where all the logic and variables are)
+app > views > (where all the html pages are)
+app > sass > _assets.scss and main.scss (where all the css is)
+
+
+run "grunt" in wedding directory to trigger the website
+
+Directory: C:\Users\Linus Chui\Dropbox\Wedding Website Linus>
+
+
+to copy to website
+grunt build 
+
+copy all folders from build folder into FTP
+
+============================================================================================================================
+

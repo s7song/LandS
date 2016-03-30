@@ -1,0 +1,378 @@
+# Copyright (C) 2014-2015 DoveThemes.com
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Match 0.1.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2015-02-12 15:07+0500\n"
+"PO-Revision-Date: 2015-02-12 15:08+0500\n"
+"Last-Translator: DoveThemes <dovethemes@outlook.com>\n"
+"Language-Team: DoveThemes <dovethemes@outlook.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_nx;esc_attr_x\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/wporg/wp-content/themes/match/\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:26
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:30
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:38
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:55
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:36
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:39
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:42
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:42
+msgid "F Y"
+msgstr ""
+
+#: archive.php:45
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:45
+msgid "Y"
+msgstr ""
+
+#: archive.php:48
+msgid "Asides"
+msgstr ""
+
+#: archive.php:51
+msgid "Galleries"
+msgstr ""
+
+#: archive.php:54
+msgid "Images"
+msgstr ""
+
+#: archive.php:57
+msgid "Videos"
+msgstr ""
+
+#: archive.php:60
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:63
+msgid "Links"
+msgstr ""
+
+#: archive.php:66
+msgid "Statuses"
+msgstr ""
+
+#: archive.php:69
+msgid "Audios"
+msgstr ""
+
+#: archive.php:72
+msgid "Chats"
+msgstr ""
+
+#: archive.php:75 sidebar.php:19
+msgid "Archives"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:12
+msgid "All Aside Posts"
+msgstr ""
+
+#: content-aside.php:33 content-audio.php:33 content-gallery.php:33
+#: content-image.php:33 content-link.php:42 content-quote.php:33
+#: content-video.php:33 content.php:27
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-aside.php:36 content-audio.php:36 content-gallery.php:36
+#: content-image.php:36 content-link.php:45 content-page.php:19
+#: content-quote.php:36 content-single.php:23 content-video.php:36
+#: content.php:30 image.php:57
+msgid "Pages:"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: content-aside.php:47 content-aside.php:57 content-audio.php:47
+#: content-audio.php:57 content-gallery.php:47 content-gallery.php:57
+#: content-image.php:47 content-image.php:57 content-link.php:56
+#: content-link.php:66 content-quote.php:47 content-quote.php:57
+#: content-single.php:34 content-single.php:37 content-video.php:47
+#: content-video.php:57 content.php:43 content.php:53
+msgid ", "
+msgstr ""
+
+#: content-aside.php:51 content-audio.php:51 content-gallery.php:51
+#: content-image.php:51 content-link.php:60 content-quote.php:51
+#: content-video.php:51 content.php:47
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content-aside.php:61 content-audio.php:61 content-gallery.php:61
+#: content-image.php:61 content-link.php:70 content-quote.php:61
+#: content-video.php:61 content.php:57
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content-aside.php:66 content-audio.php:66 content-gallery.php:66
+#: content-image.php:66 content-link.php:75 content-quote.php:66
+#: content-video.php:66 content.php:63
+msgid "Leave a comment"
+msgstr ""
+
+#: content-aside.php:66 content-audio.php:66 content-gallery.php:66
+#: content-image.php:66 content-link.php:75 content-quote.php:66
+#: content-video.php:66 content.php:63
+msgid "1 Comment"
+msgstr ""
+
+#: content-aside.php:66 content-audio.php:66 content-gallery.php:66
+#: content-image.php:66 content-link.php:75 content-quote.php:66
+#: content-video.php:66 content.php:63
+msgid "% Comments"
+msgstr ""
+
+#: content-aside.php:69 content-audio.php:69 content-gallery.php:69
+#: content-image.php:69 content-link.php:78 content-page.php:28
+#: content-quote.php:69 content-single.php:65 content-video.php:69
+#: content.php:66 image.php:66 inc/template-tags.php:81
+#: inc/template-tags.php:107
+msgid "Edit"
+msgstr ""
+
+#: content-audio.php:12
+msgid "All Audio Posts"
+msgstr ""
+
+#: content-gallery.php:12
+msgid "All Gallery Posts"
+msgstr ""
+
+#: content-image.php:12
+msgid "All Image Posts"
+msgstr ""
+
+#: content-link.php:12
+msgid "All Link Posts"
+msgstr ""
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-quote.php:12
+msgid "All Quote Posts"
+msgstr ""
+
+#: content-single.php:42
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: content-single.php:44
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:50
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:52
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: content-video.php:12
+msgid "All Video Posts"
+msgstr ""
+
+#: functions.php:50
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:81
+msgid "Main Sidebar"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Raleway, translate this to 'off'. Do not translate into your own language.
+#. translators: If there are characters in your language that are not supported
+#. by Roboto, translate this to 'off'. Do not translate into your own language.
+#: functions.php:136 functions.php:145
+msgid "on"
+msgstr ""
+
+#: header.php:40
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:73
+msgid "<span class=\"meta-nav\">&larr;</span> Previous Image"
+msgstr ""
+
+#: image.php:74
+msgid "Next Image <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/custom-header.php:32
+msgid "Match"
+msgstr ""
+
+#: inc/extras.php:87
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/extras.php:221
+msgid "&copy; Copyright"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:59
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: inc/template-tags.php:60
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:81
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:98
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/template-tags.php:104
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:111
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:152
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:10
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:26
+msgid "Meta"
+msgstr ""

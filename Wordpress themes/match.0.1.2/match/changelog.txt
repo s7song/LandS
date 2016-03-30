@@ -1,0 +1,7 @@
+== Changelog ==
+
+= 1.0.1 - February 12, 2015 =
+* WordPress 4.1 `add_theme_support( 'title-tag' )` functionality added with the backword compatibility.
+
+= 0.1.1 - Mar 19 2014 =
+* Initial release.

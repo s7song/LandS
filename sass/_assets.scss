@@ -1,0 +1,73 @@
+//This file defines all the common styles that should be used between all the different pages
+@import '_settings.scss';
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: $normal-font, sans-serif;
+    height: 100%;
+}
+
+body {
+    font-family: $normal-font;
+    font-size: 18px;
+    font-size: 1.8rem;
+    height: 100%;
+    color: $normal-font-color;
+}
+
+h1 {
+    font-family: $fancy-font;
+    font-size: 40px;
+    font-size: 4rem;
+    margin: 0;
+    color: $title-color;
+}
+
+h2 {
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-family: $normal-font;
+    color: $title-color;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+
+button {
+    font-family: $normal-font;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    font-size: 2.4rem;
+    cursor: pointer;
+
+    &.primary {
+        border: 0;
+        background: #2980b9;
+
+        &:hover {
+            background: #14689f;
+        }
+    }
+
+    &.secondary {
+        border: 0;
+        background: rgb(180, 180, 180);
+
+        &:hover {
+            background: rgb(120, 120, 120);
+        }
+    }
+}

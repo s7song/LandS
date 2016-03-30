@@ -1,0 +1,381 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+@font-face {
+    font-family: 'AlexBrush';
+    src: url('../Fonts/AlexBrush-Regular.ttf');
+}
+
+@import '_reset.scss';
+@import '_assets.scss';
+@import '_grid.scss';
+@import '_animate.scss';
+@import '_dropdown_menu.scss';
+
+#carousel_css {
+    @import 'http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css';
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1280px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+$max-width: 1280px;
+
+#banner {
+    position: relative;
+
+    img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        max-width: 980px;
+        top: 30px;
+        bottom: 30px;
+    }
+
+    figcaption {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 1em;
+        font-family: $fancy-font;
+        font-size: 70px;
+    }
+}
+
+#message {
+    margin: 0px auto;
+
+    @media (min-width: 800px) {
+        margin-top: 20px;
+    }
+
+    max-width: 980px;
+    padding: 20px;
+
+
+    h2 {
+        margin-bottom: 3rem;
+    }
+
+    #signature {
+        font-size: 40px;
+        font-size: 4rem;
+        margin-top: 3rem;
+        text-align: right;
+        color: $accent-color;
+        font-family: $fancy-font;
+    }
+}
+
+%info-section {
+    padding: 60px 20px;
+    text-align: center;
+    @extend .clearfix;
+
+    h1 {
+        margin-bottom: 30px;
+
+        @media (min-width: 800px) {
+            margin-bottom: 50px;
+        }
+    }
+
+    @media (min-width: 800px) {
+        padding: 100px 20px;
+    }
+}
+
+%colored-section {
+    background: $colored-background;
+    color: $colored-background-text-color;
+
+    h1 {
+        color: white;
+    }
+}
+
+#loading {
+    padding: 20px;
+
+    img {
+        width: 60px;
+    }
+
+    @media (min-width: 800px) {
+        padding: 60px;
+
+        img {
+            width: auto;
+        }
+    }
+
+    @media (min-width: 980px) {
+        border: 1px solid rgb(210, 210, 210);
+    }
+
+    max-width: 980px;
+    margin: 0 auto;
+    border-top: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+        color: $accent-color;
+    }
+}
+
+#wedding-day-events {
+    @extend %info-section;
+    @extend %colored-section;
+
+    h2 {
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    ul {
+        max-width: $max-width;
+        margin: 0 auto;
+        display: block;
+    }
+
+    li {
+        background: $dark-colored-background;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        max-width: 700px;
+    }
+
+    padding-bottom: 150px;
+    background-image: url(../images/church7-white.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    #reception-info {
+        display: none;
+    }
+
+    &.show-reception-info {
+        li {
+            @media(min-width: 800px) {
+                $gutter_width: 2%;
+                @include column(6);
+
+                + li {
+                    @include push(6);
+                }
+            }
+        }
+
+        #reception-info {
+            display: block;
+        }
+    }
+}
+
+#gifts {
+    @extend %info-section;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    background-image: url(../images/gift-icon.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    p {
+        text-align: left;
+
+        &:last-child {
+            margin-top: 1em;
+        }
+    }
+}
+
+#rsvp {
+    @extend %info-section;
+    background: rgb(240, 240, 240);
+
+    form {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    button {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+        @include column(10, 1);
+        clear: both;
+
+
+        @media (min-width: 800px) {
+            @include column(6, 0);
+            clear: none;
+
+            + button {
+                @include push(6);
+            }
+        }
+
+        background-color: $button-background;
+        &:hover {
+            background-color: $button-hover-background;
+        }
+    }
+}
+
+#coming {
+    @extend %info-section;
+    background: rgb(240, 240, 240);
+
+    padding: {
+        left: 0;
+        right: 0;
+    }
+
+    #heart {
+        color: #c0392b;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        max-width: $max-width;
+    }
+
+    button {
+        margin-top: 40px;
+        background-color: $button-background;
+        &:hover {
+            background-color: $button-hover-background;
+        }
+    }
+}
+
+#not-coming {
+    @extend %info-section;
+    background: rgb(240, 240, 240);
+
+    #table-flip {
+        font-family: $normal-font;
+        letter-spacing: -5px;
+        margin-left: 20px;
+    }
+
+    padding: {
+        left: 0;
+        right: 0;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        max-width: $max-width;
+    }
+
+    button {
+        margin-top: 40px;
+        background-color: $button-background;
+        &:hover {
+            background-color: $button-hover-background;
+        }
+    }
+}
+
+#anything-else {
+    @extend %info-section;
+    @extend %colored-section;
+    align-content: center;
+
+    form {
+        $container_margin: 4%;
+        @include container();
+        max-width: $max-width;
+        @extend .clearfix;
+        align-content: center;
+
+        @media (min-width: 1280px) {
+            $container_margin: auto;
+            @include container();
+        }
+
+        textarea {
+            font-size: 1.8rem;
+            height: 10em;
+            @include column(12);
+            resize: vertical;
+            font-family: $normal-font;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 20px;
+            align-content: center;
+        }
+
+        p {
+            @include column(12);
+            display: block;
+            padding: 20px;
+            font-size: 1.8rem;
+            font-family: $normal-font;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            color: $colored-background-text-color;
+            text-align: left;
+        }
+    }
+
+    .button-group {
+        @extend .clearfix;
+        clear: both;
+        padding-top: 20px;
+        align-content: center;
+    }
+
+    button {
+        margin-top: 20px;
+
+        @include column(12);
+        clear: both;
+
+        @media (min-width: 800px) {
+            @include column(6, 0);
+            clear: none;
+
+            &.primary {
+                @include push(6);
+            }
+        }
+
+        background-color: $button-background;
+        &:hover {
+            background-color: $button-hover-background;
+        }
+    }
+
+}
+

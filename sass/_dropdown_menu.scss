@@ -1,0 +1,86 @@
+﻿
+/* CSS MENU BUILD ==============================================================================================*/
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cssmenu {
+  line-height: 1;
+  background:rgba(0,0,0,1);
+  width: 100%;
+  text-align: center;
+  z-index:1000; /* This makes the dropdown menus appear above the page content below */
+  position: fixed;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cssmenu a {
+  display: block;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+#cssmenu ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+  float:right;
+  position:relative;
+  right:50%;
+}
+#cssmenu > ul > li {
+   margin:0 0 0 1px;
+   padding:0;
+   float:left;
+   position:relative;
+   left:50%;
+   top:1px;
+}
+#cssmenu.align-center {
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul {
+  float: right;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li > a {
+  color: #ffffff;
+  font-size: 14px;
+}
+#cssmenu > ul > li:hover:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #0fa1e0;
+  margin-left: -10px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a {
+  color: black;
+  background: pink;
+}
+#cssmenu ul ul li:hover > a {
+  color: #ffffff;
+}
