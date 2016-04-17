@@ -1,11 +1,12 @@
 ﻿<div id='cssmenu'>
     <ul>
-        <li><a class="scroll" href='#_02_our_story'><span>OUR STORY</span></a></li>
-        <li><a class="scroll" href='#_03_better_together'><span>BETTER TOGETHER</span></a></li>
-        <li><a class="scroll" href='#_04_entourage'><span>ENTOURAGE</span></a></li>
-        <li><a class="scroll" href='#_05_wedding_information'><span>THE WEDDING</span></a></li>
-        <li><a class="scroll" href='#_06_registry'><span>REGISTRY</span></a></li>
-        <li><a class="scroll" href='#_07_rsvp'><span>RSVP</span></a></li>
+
+        <li><a data-bind="click:scrollToSection.bind($data, '_02_our_story')" ><span>OUR STORY</span></a></li>
+        <li><a data-bind="click:scrollToSection.bind($data, '_03_better_together')"><span>BETTER TOGETHER</span></a></li>
+        <li><a data-bind="click:scrollToSection.bind($data, '_04_entourage')"><span>ENTOURAGE</span></a></li>
+        <li><a data-bind="click:scrollToSection.bind($data, '_05_wedding_information')"><span>THE WEDDING</span></a></li>
+        <li><a data-bind="click:scrollToSection.bind($data, '_06_registry')"><span>REGISTRY</span></a></li>
+        <li><a data-bind="click:scrollToSection.bind($data, '_07_rsvp')"><span>RSVP</span></a></li>
     </ul>
 </div>
 
@@ -13,5 +14,7 @@
     <figure id="banner">
         <img src="images/banner.jpg" />
     </figure>
+
     <!-- ko router: {} --><!-- /ko -->
 </div>
+
