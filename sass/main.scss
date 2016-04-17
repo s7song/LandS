@@ -305,6 +305,54 @@ $max-width: 1280px;
     }
 }
 
+#our-story{
+    .photoBlock {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-height: 80vh;
+      padding-bottom: 10%;
+    }
+
+    .photoBlock .mediumImage {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+    }
+
+    .photoBlock .mediumImage.shuk{
+      background-image: url('https://scontent-ord1-1.xx.fbcdn.net/hphotos-xal1/t31.0-8/10271359_10202154924948771_6166971089189615734_o.jpg');
+
+    }
+    .photoBlock .mediumImage.linus {
+      background-image: url('https://scontent-ord1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1173654_10151804692282878_1365347893_n.jpg?oh=5298c5c4784c610954acd56f7e6917b1&oe=577999A8');
+    }
+
+    .brideGroomTitle {
+      padding-top: 20px;
+      padding-bottom: 5px;
+      font-size: 22px;
+    }
+
+    .brideGroomName {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 24px;
+    }
+
+    .brideGroomPOV{
+      padding-top: 15px;
+      font-size: 21px;
+      line-height: 28px;
+      color: grey;
+      text-align: left;
+    }
+}
+
 #anything-else {
     @extend %info-section;
     @extend %colored-section;
@@ -378,4 +426,3 @@ $max-width: 1280px;
     }
 
 }
-

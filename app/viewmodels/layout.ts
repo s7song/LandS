@@ -15,7 +15,16 @@ class LayoutViewModel {
     constructor() {
         this.router = router;
     }
+
+
+    scrollToSection(sectionID) {      
+      $('html, body').animate({
+        scrollTop: $("#" + sectionID).offset().top
+      }, 1000);
+      return false;
+    }
+
+
 }
 
 export = LayoutViewModel;
-
