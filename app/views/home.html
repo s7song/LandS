@@ -1,11 +1,24 @@
 ﻿<figure id="loading" data-bind="visible: loading">
     <h2>August 20, 2016</h2>
     <h1>Linus and Shuk's Wedding</h1>
-
     <img src="images/preloader.gif" />
 </figure>
 
 <article id="home" data-bind="visible: !loading()">
+    <!-- ko compose: { view: '_01_banner.html' } --><!--/ko-->
+    <!-- ko compose: { view: '_02_our_story.html' } --><!--/ko-->
+    <!-- ko compose: { view: '_03_better_together.html' } --><!--/ko-->
+    <!-- ko compose: { view: '_04_entourage.html' } --><!--/ko-->
+    <!-- ko compose: { view: '_05_wedding_information.html' } --><!--/ko-->
+    <!-- ko compose: { view: '_06_registry.html' } --><!--/ko-->
+    <!-- ko compose: { view: '_07_rsvp.html' } --><!--/ko-->
+    <!-- ko compose: { view: '_08_more_information.html' } --><!--/ko-->
+
+</article>
+
+<!-- Temporarily hiding original code -->
+<script>
+    /*
     <!-- ko compose: { view: 'ourStory.html' } --><!--/ko-->
     <!-- ko compose: { view: 'message.html' } --><!--/ko-->
     <!-- ko compose: { view: 'weddingEvents.html' } --><!-- /ko -->
@@ -13,4 +26,5 @@
     <!-- ko compose: { view: rsvpView } --><!-- /ko -->
     <!-- ko compose: { view: decided() ? 'anythingElse.html' : null } --><!-- /ko -->
     <!-- ko compose: { view: 'temporary.html' } --><!-- /ko -->
-</article>
+    */
+</script>

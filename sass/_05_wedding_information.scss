@@ -1,0 +1,59 @@
+﻿#_05_wedding_information {
+    @extend %info-section;
+    @extend %colored-section;
+
+    h2 {
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    p {
+        margin-bottom: 10px;
+        color: red;
+    }
+
+    ul {
+        max-width: $max-width;
+        margin: 0 auto;
+        display: block;
+    }
+
+    li {
+        background: $dark-colored-background;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        max-width: 700px;
+    }
+
+    padding-bottom: 150px;
+    background-image: url(../images/church7-white.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    #reception-info {
+        display: none;
+    }
+
+    &.show-reception-info {
+        li {
+            @media(min-width: 800px) {
+                $gutter_width: 2%;
+                @include column(6);
+
+                + li {
+                    @include push(6);
+                }
+            }
+        }
+
+        #reception-info {
+            display: block;
+        }
+    }
+
+}

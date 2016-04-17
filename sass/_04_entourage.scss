@@ -1,0 +1,83 @@
+﻿#_04_entourage {
+
+    h1 {
+        font-family: $normal-font2;
+        color: red;
+        background: $normal-font-background-color;
+        font-size: 20px;
+    }
+
+    h2 {
+        font-family: fantasy;
+        color: yellow;
+        background: $normal-font-background-color;
+        font-size: 20px;
+        font-stretch: ultra-expanded;
+    }
+
+    h3 {
+        font-family: $normal-font2;
+        color: aquamarine;
+        background: $normal-font-background-color;
+        font-size: 50%;
+    }
+
+    p {
+        font-family: $normal-font2;
+        color: hotpink;
+        background: $normal-font-background-color;
+        font-size: 50%;
+    }
+
+    .entourageSubText {
+        text-align: center;
+        font-size: 12pt;
+        text-transform: uppercase;
+    }
+
+    .entourageSection {
+        padding: 20px 0px;
+    }
+
+    .sectionTitle {
+        font-size: 14pt;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+    }
+
+    .sectionSubTitle {
+        font-size: 12pt;
+        padding-bottom: 5px;
+    }
+
+    .imageContainer {
+        position:relative;
+        overflow:hidden;
+     }
+    .imageContainer .textbox {
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom: 0;
+        margin-left:-150%;
+    }
+    .imageContainer:hover .textbox {
+
+        margin-left:0;
+    }
+    .imageContainer img {
+        max-width:100%;
+        margin-left:0;
+    }
+    .imageContainer:hover img {
+        margin-left:150%;
+    }
+
+    .imageContainer img, .textbox {
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+
+
+}

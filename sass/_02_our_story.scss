@@ -1,0 +1,36 @@
+﻿#_02_our_story {
+
+    h1 {
+        font-family: $normal-font2;
+        color: red;
+        background: $normal-font-background-color;
+        font-size: 20px;
+    }
+
+    h2 {
+        font-family: fantasy;
+        color: yellow;
+        background: $normal-font-background-color;
+        font-size: 20px;
+        font-stretch: ultra-expanded;
+    }
+
+    h3 {
+        font-family: $normal-font2;
+        color: aquamarine;
+        background: $normal-font-background-color;
+        font-size: 50%;
+    }
+
+    p {
+        font-family: $normal-font2;
+        color: hotpink;
+        background: $normal-font-background-color;
+        font-size: 50%;
+    }
+
+    img {
+        object-fit: fill;
+        opacity: 0.5
+    }
+}

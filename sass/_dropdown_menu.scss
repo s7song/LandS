@@ -27,6 +27,11 @@
   font-family: Helvetica, Arial, Verdana, sans-serif;
   padding: 15px 15px;
   text-decoration: none;
+
+  transition-property: background-color, color;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-out;
+
 }
 #cssmenu ul {
   margin:0;
@@ -44,43 +49,11 @@
    left:50%;
    top:1px;
 }
-#cssmenu.align-center {
-  text-align: center;
-}
-#cssmenu.align-center > ul > li {
-  float: none;
-}
-#cssmenu.align-center ul ul {
-  text-align: left;
-}
-#cssmenu.align-right > ul {
-  float: right;
-}
-#cssmenu.align-right ul ul {
-  text-align: right;
-}
 #cssmenu > ul > li > a {
   color: #ffffff;
   font-size: 14px;
 }
-#cssmenu > ul > li:hover:after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #0fa1e0;
-  margin-left: -10px;
-}
-#cssmenu > ul > li.active > a,
 #cssmenu > ul > li:hover > a {
   color: black;
   background: pink;
-}
-#cssmenu ul ul li:hover > a {
-  color: #ffffff;
 }
